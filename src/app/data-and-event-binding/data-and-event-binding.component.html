@@ -1,0 +1,15 @@
+<p>data-and-event-binding works!</p>
+
+<!-- String Interpolation  {{ expression }} hien thi du lieu o expression -->
+<p>{{ user.name }}</p>
+<p>{{ user.age }}</p>
+
+<!-- Data binding chia lam 2 loai la propenty va attributes binding  -->
+<!-- propenty binding hien thi du lieu tu app component ra template-->
+<input type="text" [value]="user.name" />
+<!-- attributes binding -->
+
+<!-- Event binding nhan su kien tuwf template va xu ly trong app component-->
+<button type="button" (click)="handler()"></button>
+<br /><br />
+<!-- TwoWay data binding: laf ket hop giua propenty binding va  Event binding -->
